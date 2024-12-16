@@ -1,0 +1,34 @@
+<style>
+        h2 {
+            color: rgb(220, 35, 27);
+        }  
+        #parrafo-red {
+            background-color: blue;
+        }
+        
+        #parrafo-verde {
+            background-color: red;
+        }
+        .fuente-arial {
+            font-family: "Arial", "Palatino", serif;
+            font-size: 40px;
+        }
+        body {
+                background-color: lightblue;
+        }
+esto era la 2 ahora vamos a  la tres
+
+         #demo1 {
+                background: rgb(225, 15, 105);
+                width: 65%;
+                height: 85px;
+             }
+
+         #demo2 {
+                background: rgb(255, 15, 105);
+                width: 70%;
+                height: 50px;
+             }
+
+   
+</style>
