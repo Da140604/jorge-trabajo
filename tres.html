@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Mi tercera Página</title> 
+    <link rel="stylesheet" href="estilo.css">
+</head>
+  
+  <body>    
+   
+    <h1> MI tercera  pagina web</h1>
+    <h2 id="demo2"> <a href="index.html">SI PULSAS AQUÍ VAS A LA PRIMERA PAGINA</a></h2>
+    <h2 id="demo2"> <a href="dos.html">SI PULSAS AQUÍ VERÁS LA SEGUNDA PAGINA</a></h2>
+    <!--
+     AQUI PUEDES ENCOTRAR LAS OTRAS DOS PAGINAS  
+     -->
+      
+    <script>
+      var nombre = prompt ("introduce un mote: ");
+      document.write ("<h3 id='demo1'>El mote que has pues por es: " +nombre);
+      document.write ("</h3>");
+      var numero1 = prompt ("Escribe tu numero favorito:");
+      var numero2 = prompt ("Escribe tu segundo numero favorito:");       
+      numero1 = Number(numero1);
+      numero2 = Number(numero2);
+      var resultado = numero1+numero2; //Muestra el resultado de la suma
+      resultado= resultado.toFixed(3); //redondea el resultado a tres decimales
+      document.write ("<h3 id='demo1'>si lo sumas sale:" + resultado);
+      document.write ("</h3>");
+      document.write ("<h3 id='demo1'>Tu resultado es:" + numero1*numero2);
+      document.write ("</h3>");
+  
+      document.write (numero1 - numero2); // Resta
+      document.write ("<br>");
+      document.write (numero1 * numero2); // Multiplicación
+      document.write ("<br>");
+      document.write (numero1 / numero2); // División
+      document.write ("<br>");
+      document.write (numero1 % numero2); // Módulo
+      document.write ("<br>");
+      document.write (numero1 ** numero2); // Exponente
+      document.write ("<br><br><br>");
+
+     
+      var edad = prompt ("¿Cuantos años tendrás el año que viene?");       
+      edad = Number(edad);
+      if (edad == 18) 
+              {
+              document.write("TIENES 18 AÑOS");
+              }
+              else {
+                if (edad > 18) 
+                  {
+                    document.write("FELICIDADES ERES MAYOR DE EDAD");
+                  }
+                else
+                  {
+                    document.write ("QUE PENA, SIGUES SIENDO PEQUEÑO ");
+                  }  
+              }      
+    </script>
+  </body>
+  
+</html>
